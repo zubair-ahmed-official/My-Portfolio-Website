@@ -63,12 +63,34 @@ body {
     background: linear-gradient(to right, rgba(42, 8, 69,0.4), rgba(100, 65, 165,0.4));
 }
 .bg-card{
-
+    border-radius: 0;
     background: #6441A5;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    background: -webkit-linear-gradient(to right, #2a0845, rgba(100, 65, 165,0));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a0845, #6441A5);
+    background: linear-gradient(to right, #2a0845, rgba(100, 65, 165,0));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg-card2{
+    border-radius: 0;
+    background: #6441A5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(42, 8, 69,0), rgba(100, 65, 165,0));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgb(42, 8, 69), rgba(100, 65, 165,0));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.bg-card3{
+    border-radius: 0;
+    background: #6441A5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, rgba(42, 8, 69,0), rgba(100, 65, 165,0));
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(42, 8, 69,0), rgba(100, 65, 165,0));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -78,4 +100,11 @@ body {
 }
 .bg-progress{
     background-color: #6441A5;
+}
+
+@media screen and (max-width: 680px) {
+    
+    .resp-hidden{
+        display: none;
+    }
 }
