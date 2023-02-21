@@ -11,6 +11,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     color: white;
+   
 }
 
 .btn-contact {
@@ -21,8 +22,16 @@ body {
     border: 0;
     border-radius: 8px;
     background-color: rgba(137, 43, 226, 0.938);
-
 }
+.btn-contact:hover .rotate{
+    rotate: 360deg;
+    transition: 1.5s;
+}
+.btn-contactSubmit:hover .rotate{
+    rotate: 360deg;
+    transition: 1.5s;
+}
+
 .btn-git{
     margin-top: 20px;
     padding: 15px 20px;
@@ -33,7 +42,7 @@ body {
     background-color: rgba(137, 43, 226, 0.938);
 }
 
-.btn-contact:hover, .btn-git:hover {
+.btn-contact:hover, .btn-git:hover, .btn-contactSubmit:hover {
     background-color: rgba(137, 43, 226, 0.615);
 }
 
@@ -69,6 +78,11 @@ body {
 .icons {
     margin: 35px 10px;
     font-size: 23px;
+    color:gainsboro;
+}
+.contact-icons {
+    margin: 5px 10px;
+    font-size: 28px;
     color:gainsboro;
 }
 
@@ -124,6 +138,75 @@ body {
 .bg-progress{
     background-color: #6441A5;
 }
+.Contact-Div
+{
+    display: flex;
+}
+
+.contactMe{
+    color: rgba(212, 211, 211, 0.933); 
+    font-size:19px; 
+    font-weight:500;
+    margin: 0 30px 20px 0;
+}
+
+.contactMe:hover .contact-icons{
+    rotate: 360deg;
+    transition: rotate 1.5s;
+    color: rgb(129, 71, 255);
+}
+
+.modal-email{
+    background: #6441A5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5);
+    color: rgba(233, 232, 232, 0.974);
+    border: 0;
+    padding-left: 50px;
+}
+.modal-wht
+{
+    background: #6441A5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5);
+    color: rgba(233, 232, 232, 0.974);
+    border: 0;
+}
+
+.contactGrid{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 50px 80px 50px 250px;
+    
+}
+
+.inputContacts
+{
+    margin-top: 30px;
+}
+.contact-input{
+    padding: 15px 125px 15px 35px;
+    margin: 10px;
+}
+.contact-textArea{
+    padding: 15px 145px 65px 35px;
+    margin: 10px;
+}
+.btn-contactSubmit {
+    margin: 10px;
+    padding: 12px 30px;
+    color: antiquewhite;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgba(137, 43, 226, 0.938);
+}
+
+ 
 
 @media screen and (max-width: 680px) {
     
