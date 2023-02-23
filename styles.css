@@ -80,6 +80,7 @@ body {
     font-size: 23px;
     color:gainsboro;
 }
+
 .contact-icons {
     margin: 5px 10px;
     font-size: 28px;
@@ -141,6 +142,7 @@ body {
 .Contact-Div
 {
     display: flex;
+    margin-bottom: 50px;
 }
 
 .contactMe{
@@ -148,9 +150,14 @@ body {
     font-size:19px; 
     font-weight:500;
     margin: 0 30px 20px 0;
+    text-decoration: none;
 }
 
-.contactMe:hover .contact-icons{
+.contactMe:hover{
+    color: rgba(212, 211, 211, 0.933); 
+}
+
+.contactMe:hover .contact-icons {
     rotate: 360deg;
     transition: rotate 1.5s;
     color: rgb(129, 71, 255);
@@ -205,7 +212,37 @@ body {
     border-radius: 8px;
     background-color: rgba(137, 43, 226, 0.938);
 }
-
+.container-research{
+    margin-bottom: 50px;
+}
+.footer{
+    display:flex;
+    text-align: top center ;
+    padding: 20px 50px 40px 0px;
+    background-color: rgba(0, 0, 0, 0.95);
+    color:azure;
+}
+.inside-footer
+{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 150px;
+}
+.second-part-footer
+{
+    margin: 20px 80px 0 80px ;
+}
+.footer_p{
+    margin: 15px;
+}
+.third-part-footer{
+    margin: 20px 80px 0 80px ;
+}
+.footer_icons {
+    margin: 0px 10px;
+    font-size: 23px;
+    color:gainsboro;
+}
  
 
 @media screen and (max-width: 680px) {
