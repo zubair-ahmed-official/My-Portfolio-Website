@@ -13,6 +13,22 @@ body {
     color: white;
    
 }
+.part_2
+{
+    display: flex;
+    margin: 50px;
+}
+
+.part_2_inside{
+    margin: 50px;
+}
+.part_2_inside_h2{
+    margin-top: 45px;
+}
+.part_2_inside_h4
+{
+    margin-top: 30px;
+}
 
 .btn-contact {
     margin-top: 40px;
@@ -70,9 +86,17 @@ body {
 }
 
 .high-level {
+    margin-bottom: 45px;
     font-size: 20px;
     font-weight: 400;
     color: rgb(212, 211, 211);
+}
+.aboutMe{
+    padding: 20px 50px 0 50px;
+}
+
+.skills{
+    margin: 30px 50px 50px 50px;
 }
 
 .icons {
@@ -247,6 +271,38 @@ body {
 
 @media screen and (max-width: 680px) {
     
+    .part_2
+    {
+        display: block;
+        margin: 20px;
+    }
+    .part_2_inside
+    {
+        margin: 20px;
+    }
+    .part_2_inside_h2{
+        margin-top: 45px;
+    }
+    .btn-contact{
+        margin-top: 15px;
+    }
+    .first_Image{
+        margin: 0px;
+        padding:0;
+        width: 100%;
+    }
+    .aboutMe{
+        padding: 20px 2px 0 2px;
+    }
+    .skills{
+        margin: 0px 10px 50px 10px;
+    }
+    .Contact-Div{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
     .resp-hidden{
         display: none;
     }
