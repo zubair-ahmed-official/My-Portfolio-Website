@@ -297,12 +297,97 @@ body {
     .skills{
         margin: 0px 10px 50px 10px;
     }
+    .slide{
+        margin-bottom: 20px; 
+        /* margin-left: 200px; */
+    }
+    .padding{
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+    .img-slide{
+        /* width:100%;  */
+        margin-left: 120px; 
+        margin-bottom: 340px; 
+        margin-top: 0px; 
+    }
+    .container-research{
+        margin-bottom: 50px;
+        margin-left: 25px;
+    }
     .Contact-Div{
-        display: none;
+        display: block;
+        margin-bottom: 0px;
+    }
+    
+    .contactMe{
+        color: rgba(212, 211, 211, 0.933); 
+        font-size:19px; 
+        font-weight:500;
+        margin: 0 0px 0px 0;
+        text-decoration: none;
+    }
+    .contactGrid{
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin: 0px 0px 0px 0px;
+        
+    }
+    
+    .inputContacts
+    {
+        margin-top: 0px;
+    }
+    .contact-input{
+        padding: 15px 125px 15px 35px;
+        margin: 15px 0 5px 5px;
+    }
+    .contact-textArea{
+        padding: 15px 145px 65px 35px;
+        margin: 15px 0 5px 5px;
+    }
+    .btn-contactSubmit {
+        margin: 10px;
+        padding: 12px 30px;
+        color: antiquewhite;
+        font-weight: 700;
+        border: 0;
+        border-radius: 8px;
+        background-color: rgba(137, 43, 226, 0.938);
     }
     .footer{
-        display: none;
+        display: block;
+        text-align: top center ;
+        padding: 0px 0px 0px 0px;
+        background-color: rgba(0, 0, 0, 0.95);
+        color:azure;
     }
+    .footer p{
+        margin: 2px;
+    }
+    .inside-footer
+    {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+    .second-part-footer
+    {
+        margin: 0px 0px 0px 0px ;
+    }
+    .footer_p{
+        margin: 10px 12px;
+    }
+    .third-part-footer{
+        margin: 0px 0px 0 0px ;
+    }
+    .footer_icons {
+        margin: 10px 10px;
+        font-size: 23px;
+        color:gainsboro;
+    }
+     
     .resp-hidden{
         display: none;
     }
