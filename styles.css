@@ -1,32 +1,43 @@
-html {  
-    scroll-behavior: smooth;  
+html {
+    scroll-behavior: smooth;
 }
+
 body {
     height: 100%;
     background: #6441A5;
-    /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
-    /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2a0845, #6441A5);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     color: white;
-   
+    animation-name: myAnimation;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
-.part_2
-{
+
+@keyframes myAnimation {
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.part_2 {
     display: flex;
     margin: 50px;
 }
 
-.part_2_inside{
+.part_2_inside {
     margin: 50px;
 }
-.part_2_inside_h2{
+
+.part_2_inside_h2 {
     margin-top: 45px;
 }
-.part_2_inside_h4
-{
+
+.part_2_inside_h4 {
     margin-top: 30px;
 }
 
@@ -39,16 +50,18 @@ body {
     border-radius: 8px;
     background-color: rgba(137, 43, 226, 0.938);
 }
-.btn-contact:hover .rotate{
-    rotate: 360deg;
-    transition: 1.5s;
-}
-.btn-contactSubmit:hover .rotate{
+
+.btn-contact:hover .rotate {
     rotate: 360deg;
     transition: 1.5s;
 }
 
-.btn-git{
+.btn-contactSubmit:hover .rotate {
+    rotate: 360deg;
+    transition: 1.5s;
+}
+
+.btn-git {
     margin-top: 20px;
     padding: 15px 20px;
     color: antiquewhite;
@@ -58,21 +71,25 @@ body {
     background-color: rgba(137, 43, 226, 0.938);
 }
 
-.btn-contact:hover, .btn-git:hover, .btn-contactSubmit:hover {
+.btn-contact:hover,
+.btn-git:hover,
+.btn-contactSubmit:hover {
     background-color: rgba(137, 43, 226, 0.615);
 }
 
-.slide{
-    margin-bottom: 150px; 
+.slide {
+    margin-bottom: 150px;
     /* margin-left: 200px; */
 }
-.padding{
+
+.padding {
     padding-left: 500px;
     padding-bottom: 10px;
 }
-.img-slide{
-    width:30%; 
-    margin-left: 200px; 
+
+.img-slide {
+    width: 30%;
+    margin-left: 200px;
     margin-bottom: 70px;
 }
 
@@ -91,68 +108,70 @@ body {
     font-weight: 400;
     color: rgb(212, 211, 211);
 }
-.aboutMe{
+
+.aboutMe {
     padding: 20px 50px 0 50px;
 }
 
-.skills{
+.skills {
     margin: 30px 50px 50px 50px;
 }
 
 .icons {
     margin: 35px 10px;
     font-size: 23px;
-    color:gainsboro;
+    color: gainsboro;
 }
 
 .contact-icons {
     margin: 5px 10px;
     font-size: 28px;
-    color:gainsboro;
+    color: gainsboro;
 }
 
 .accordion-item,
 .accordion-header,
 .accordion-collapse {
-    background: rgba(100, 65, 165,0);
+    background: rgba(100, 65, 165, 0);
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
-    background: linear-gradient(to right, rgba(42, 8, 69,0), rgba(100, 65, 165,0));
+    background: linear-gradient(to right, rgba(42, 8, 69, 0), rgba(100, 65, 165, 0));
 }
 
 .accordion-item .accordion-button {
-    background: rgba(100, 65, 165,0.4);
-    background: -webkit-linear-gradient(to right, rgba(42, 8, 69,0.4), rgba(100, 65, 165,0.4));
-    background: linear-gradient(to right, rgba(42, 8, 69,0.4), rgba(100, 65, 165,0.4));
+    background: rgba(100, 65, 165, 0.4);
+    background: -webkit-linear-gradient(to right, rgba(42, 8, 69, 0.4), rgba(100, 65, 165, 0.4));
+    background: linear-gradient(to right, rgba(42, 8, 69, 0.4), rgba(100, 65, 165, 0.4));
 }
-.bg-card{
+
+.bg-card {
     border-radius: 0;
     background: #6441A5;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2a0845, rgba(100, 65, 165,0));
+    background: -webkit-linear-gradient(to right, #2a0845, rgba(100, 65, 165, 0));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2a0845, rgba(100, 65, 165,0));
+    background: linear-gradient(to right, #2a0845, rgba(100, 65, 165, 0));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-.bg-card2{
+.bg-card2 {
     border-radius: 0;
     background: #6441A5;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, rgba(42, 8, 69,0), rgba(100, 65, 165,0));
+    background: -webkit-linear-gradient(to left, rgba(42, 8, 69, 0), rgba(100, 65, 165, 0));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, rgb(42, 8, 69), rgba(100, 65, 165,0));
+    background: linear-gradient(to left, rgb(42, 8, 69), rgba(100, 65, 165, 0));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
-.bg-card3{
+.bg-card3 {
     border-radius: 0;
     background: #6441A5;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, rgba(42, 8, 69,0), rgba(100, 65, 165,0));
+    background: -webkit-linear-gradient(to left, rgba(42, 8, 69, 0), rgba(100, 65, 165, 0));
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(42, 8, 69,0), rgba(100, 65, 165,0));
+    background: linear-gradient(to right, rgba(42, 8, 69, 0), rgba(100, 65, 165, 0));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
@@ -160,25 +179,26 @@ body {
 .accordion-button:after {
     background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
 }
-.bg-progress{
+
+.bg-progress {
     background-color: #6441A5;
 }
-.Contact-Div
-{
+
+.Contact-Div {
     display: flex;
     margin-bottom: 50px;
 }
 
-.contactMe{
-    color: rgba(212, 211, 211, 0.933); 
-    font-size:19px; 
-    font-weight:500;
+.contactMe {
+    color: rgba(212, 211, 211, 0.933);
+    font-size: 19px;
+    font-weight: 500;
     margin: 0 30px 20px 0;
     text-decoration: none;
 }
 
-.contactMe:hover{
-    color: rgba(212, 211, 211, 0.933); 
+.contactMe:hover {
+    color: rgba(212, 211, 211, 0.933);
 }
 
 .contactMe:hover .contact-icons {
@@ -187,7 +207,7 @@ body {
     color: rgb(129, 71, 255);
 }
 
-.modal-email{
+.modal-email {
     background: #6441A5;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
@@ -197,8 +217,8 @@ body {
     border: 0;
     padding-left: 50px;
 }
-.modal-wht
-{
+
+.modal-wht {
     background: #6441A5;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
@@ -208,25 +228,27 @@ body {
     border: 0;
 }
 
-.contactGrid{
+.contactGrid {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     margin: 50px 80px 50px 250px;
-    
+
 }
 
-.inputContacts
-{
+.inputContacts {
     margin-top: 30px;
 }
-.contact-input{
+
+.contact-input {
     padding: 15px 125px 15px 35px;
     margin: 10px;
 }
-.contact-textArea{
+
+.contact-textArea {
     padding: 15px 145px 65px 35px;
     margin: 10px;
 }
+
 .btn-contactSubmit {
     margin: 10px;
     padding: 12px 30px;
@@ -236,116 +258,133 @@ body {
     border-radius: 8px;
     background-color: rgba(137, 43, 226, 0.938);
 }
-.container-research{
+
+.container-research {
     margin-bottom: 50px;
 }
-.footer{
-    display:flex;
-    text-align: top center ;
+
+.footer {
+    display: flex;
+    text-align: top center;
     padding: 20px 50px 40px 0px;
     background-color: rgba(0, 0, 0, 0.95);
-    color:azure;
+    color: azure;
 }
-.inside-footer
-{
+
+.inside-footer {
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 150px;
 }
-.second-part-footer
-{
-    margin: 20px 80px 0 80px ;
+
+.second-part-footer {
+    margin: 20px 80px 0 80px;
 }
-.footer_p{
+
+.footer_p {
     margin: 15px;
 }
-.third-part-footer{
-    margin: 20px 80px 0 80px ;
+
+.third-part-footer {
+    margin: 20px 80px 0 80px;
 }
+
 .footer_icons {
     margin: 0px 10px;
     font-size: 23px;
-    color:gainsboro;
+    color: gainsboro;
 }
- 
+
 
 @media screen and (max-width: 680px) {
-    
-    .part_2
-    {
+
+    .part_2 {
         display: block;
         margin: 20px;
     }
-    .part_2_inside
-    {
+
+    .part_2_inside {
         margin: 20px;
     }
-    .part_2_inside_h2{
+
+    .part_2_inside_h2 {
         margin-top: 45px;
     }
-    .btn-contact{
+
+    .btn-contact {
         margin-top: 15px;
     }
-    .first_Image{
+
+    .first_Image {
         margin: 0px;
-        padding:0;
+        padding: 0;
         width: 100%;
     }
-    .aboutMe{
+
+    .aboutMe {
         padding: 20px 2px 0 2px;
     }
-    .skills{
+
+    .skills {
         margin: 0px 10px 50px 10px;
     }
-    .slide{
-        margin-bottom: 20px; 
+
+    .slide {
+        margin-bottom: 20px;
         /* margin-left: 200px; */
     }
-    .padding{
+
+    .padding {
         padding-left: 0px;
         padding-bottom: 0px;
     }
-    .img-slide{
+
+    .img-slide {
         /* width:100%;  */
-        margin-left: 120px; 
-        margin-bottom: 340px; 
-        margin-top: 0px; 
+        margin-left: 120px;
+        margin-bottom: 340px;
+        margin-top: 0px;
     }
-    .container-research{
+
+    .container-research {
         margin-bottom: 50px;
         margin-left: 25px;
     }
-    .Contact-Div{
+
+    .Contact-Div {
         display: block;
         margin-bottom: 0px;
     }
-    
-    .contactMe{
-        color: rgba(212, 211, 211, 0.933); 
-        font-size:19px; 
-        font-weight:500;
+
+    .contactMe {
+        color: rgba(212, 211, 211, 0.933);
+        font-size: 19px;
+        font-weight: 500;
         margin: 0 0px 0px 0;
         text-decoration: none;
     }
-    .contactGrid{
+
+    .contactGrid {
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
         margin: 0px 0px 0px 0px;
-        
+
     }
-    
-    .inputContacts
-    {
+
+    .inputContacts {
         margin-top: 0px;
     }
-    .contact-input{
+
+    .contact-input {
         padding: 15px 125px 15px 35px;
         margin: 15px 0 5px 5px;
     }
-    .contact-textArea{
+
+    .contact-textArea {
         padding: 15px 145px 65px 35px;
         margin: 15px 0 5px 5px;
     }
+
     .btn-contactSubmit {
         margin: 10px;
         padding: 12px 30px;
@@ -355,40 +394,45 @@ body {
         border-radius: 8px;
         background-color: rgba(137, 43, 226, 0.938);
     }
-    .footer{
+
+    .footer {
         display: block;
-        text-align: top center ;
+        text-align: top center;
         padding: 0px 0px 0px 0px;
         background-color: rgba(0, 0, 0, 0.95);
-        color:azure;
+        color: azure;
     }
-    .footer p{
+
+    .footer p {
         margin: 2px;
     }
-    .inside-footer
-    {
+
+    .inside-footer {
         padding-top: 20px;
         padding-bottom: 20px;
         margin-left: 10px;
         margin-right: 0px;
     }
-    .second-part-footer
-    {
-        margin: 0px 0px 0px 0px ;
+
+    .second-part-footer {
+        margin: 0px 0px 0px 0px;
     }
-    .footer_p{
+
+    .footer_p {
         margin: 10px 12px;
     }
-    .third-part-footer{
-        margin: 0px 0px 0 0px ;
+
+    .third-part-footer {
+        margin: 0px 0px 0 0px;
     }
+
     .footer_icons {
         margin: 10px 10px;
         font-size: 23px;
-        color:gainsboro;
+        color: gainsboro;
     }
-     
-    .resp-hidden{
+
+    .resp-hidden {
         display: none;
     }
 }
