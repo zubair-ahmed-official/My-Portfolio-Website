@@ -7,11 +7,7 @@ body {
     background: #6441A5;
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
     background: linear-gradient(to right, #2a0845, #6441A5);
-    color: white;
-    animation-name: myAnimation;
-    animation-duration: 0.8s;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
+    color: white; 
 }
 
 @keyframes myAnimation {
@@ -27,6 +23,10 @@ body {
 .part_2 {
     display: flex;
     margin: 50px;
+    animation-name: myAnimation;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .part_2_inside {
@@ -111,10 +111,18 @@ body {
 
 .aboutMe {
     padding: 20px 50px 0 50px;
+    animation-name: myAnimation;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .skills {
     margin: 30px 50px 50px 50px;
+    animation-name: myAnimation;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .icons {
