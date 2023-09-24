@@ -7,7 +7,7 @@ body {
     background: #6441A5;
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
     background: linear-gradient(to right, #2a0845, #6441A5);
-    color: white; 
+    color: white;
 }
 
 @keyframes myAnimation {
@@ -18,6 +18,16 @@ body {
     100% {
         transform: scale(1);
     }
+}
+
+.navEffect {
+    text-align: center;
+}
+
+.navEffect:hover {
+    background-color: rgba(42, 8, 69, 0.5);
+    border-radius: 10%;
+    transition: 1s;
 }
 
 .part_2 {
@@ -74,7 +84,8 @@ body {
 .btn-contact:hover,
 .btn-git:hover,
 .btn-contactSubmit:hover {
-    background-color: rgba(137, 43, 226, 0.615);
+    transition: 1.5s;
+    background-color: rgba(0, 0, 0, 0.858);
 }
 
 .slide {
@@ -92,11 +103,13 @@ body {
     margin-left: 200px;
     margin-bottom: 70px;
 }
+
 .img-slideLast {
     width: 30%;
     margin-left: 200px;
     margin-bottom: 70px;
 }
+
 .img-slide2 {
     width: 30%;
     margin-left: 200px;
@@ -221,8 +234,13 @@ body {
 
 .contactMe:hover .contact-icons {
     rotate: 360deg;
-    transition: rotate 1.5s;
+    transition: 1.5s;
     color: rgb(129, 71, 255);
+}
+
+.certificate-p:hover .certificate-icon {
+    rotate: 360deg;
+    transition: 1.5s;
 }
 
 .modal-email {
@@ -364,18 +382,21 @@ body {
         margin-bottom: 360px;
         margin-top: 0px;
     }
+
     .img-slide2 {
         /* width:100%;  */
         margin-left: 120px;
         margin-bottom: 430px;
         margin-top: 0px;
     }
+
     .img-slideLast {
         /* width:100%;  */
         margin-left: 120px;
         margin-bottom: 300px;
         margin-top: 0px;
     }
+
     .container-research {
         margin-bottom: 50px;
         margin-left: 25px;
