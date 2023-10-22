@@ -8,6 +8,7 @@ body {
     background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
     background: linear-gradient(to right, #2a0845, #6441A5);
     color: white;
+
 }
 
 @keyframes myAnimation {
@@ -202,6 +203,23 @@ body {
     margin: 5px 10px;
     font-size: 28px;
     color: gainsboro;
+}
+
+.freelance-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    justify-content: center;
+
+}
+
+.freelancer-padding {
+    padding: 24px 0 0 25px;
+}
+
+.leetcode-icon:hover,
+.freelance-icons:hover {
+    translate: 0px -8px;
+    transition: 1s;
 }
 
 .accordion-item,
@@ -500,6 +518,16 @@ body {
         border: 0;
         border-radius: 8px;
         background-color: black;
+    }
+
+    .freelance-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        padding-bottom: 20px;
+    }
+
+    .freelancer-padding {
+        padding: 0px 0 0px 50px;
     }
 
     .container-research {
