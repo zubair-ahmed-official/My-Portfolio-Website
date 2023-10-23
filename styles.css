@@ -24,12 +24,12 @@ body {
 .navEffect {
     text-align: center;
     font-weight: 600;
+    transition: 0.5s;
 }
 
 .navEffect:hover {
     background-color: rgba(42, 8, 69, 0.5);
     border-radius: 10%;
-    transition: 1s;
 }
 
 .part_2 {
@@ -63,6 +63,7 @@ body {
     border: 0;
     border-radius: 8px;
     background-color: black;
+    transition: 1.5s;
 }
 
 .btn-contact:hover .rotate {
@@ -83,6 +84,7 @@ body {
     border: 0;
     border-radius: 8px;
     background-color: black;
+    transition: 1.5s;
 }
 
 .btn-live-link {
@@ -93,6 +95,7 @@ body {
     border: 0;
     border-radius: 8px;
     background-color: black;
+    transition: 1.5s;
 }
 
 .btn-contact:hover,
@@ -203,6 +206,7 @@ body {
     margin: 5px 10px;
     font-size: 28px;
     color: gainsboro;
+    transition: 1.7s;
 }
 
 .freelance-grid {
@@ -215,11 +219,13 @@ body {
 .freelancer-padding {
     padding: 24px 0 0 25px;
 }
-
+.leetcode-icon, .freelance-icons
+{
+    transition: 0.7s;
+}
 .leetcode-icon:hover,
 .freelance-icons:hover {
     translate: 0px -8px;
-    transition: 1s;
 }
 
 .accordion-item,
@@ -300,6 +306,7 @@ body {
     font-weight: 500;
     margin: 0 30px 20px 0;
     text-decoration: none;
+    
 }
 
 .contactMe:hover {
@@ -308,7 +315,6 @@ body {
 
 .contactMe:hover .contact-icons {
     rotate: 360deg;
-    transition: 1.5s;
     color: rgb(129, 71, 255);
 }
 
@@ -368,6 +374,7 @@ body {
     border: 0;
     border-radius: 8px;
     background-color: black;
+    transition: 1.5s;
 }
 
 .container-research {
